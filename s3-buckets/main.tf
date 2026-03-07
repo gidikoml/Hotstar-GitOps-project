@@ -19,10 +19,10 @@ resource "aws_s3_bucket_versioning" "bucket1_versioning" {
 }
 
 resource "aws_s3_bucket" "bucket2" {
-  bucket = "hotstaalurus"
+  bucket = "gidikoml"
 
   tags = {
-    Name        = "hotstaalurus"
+    Name        = "gidikoml"
     Environment = "dev"
   }
 }

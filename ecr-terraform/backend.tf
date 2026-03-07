@@ -7,7 +7,7 @@ terraform {
   }
 
   backend "s3" {
-    bucket = "hotstaalurus"
+    bucket = "gidikoml"
     key    = "ecr/terraform.tfstate"
     region = "us-east-1"
   }

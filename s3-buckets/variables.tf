@@ -7,7 +7,7 @@ variable "bucket1_name" {
 variable "bucket2_name" {
   description = "Name of the second S3 bucket"
   type        = string
-  default     = "hotstaalurus"
+  default     = "gidikoml"
 }
 
 variable "environment" {
